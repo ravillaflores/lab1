@@ -8,6 +8,19 @@
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 
+	
+<script src="js/bootstrap.js" type="text/javascript">
+$(document).ready(function() { 
+	$('#btnLogin').click(function() { 
+		var txt = $('#tbxLogin').val();
+		$('#divTest').html(txt);
+	});
+
+});
+
+</script>
+	
+	
 </head>
 
 <div class="form-group">
@@ -17,12 +30,22 @@
 				Username: 
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xl-3">
-				<input class="form-control" type="text"  />
+				<input class="form-control" type="text"  id="tbxLogin"/>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xl-3">
-				<input class="button" type="button" />
+				<input class="button" type="button" value="Login" id="btnLogin"/>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-1 col-xl-3">
+				test: 
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xl-3" id="divTest">
+				
 			</div>
 		</div>
 	</div>
