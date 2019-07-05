@@ -19,15 +19,47 @@ $(document).ready(function() {
 	
 });
 
+$("#aHome").click(function() {
+	alert('Mew');
+});
+
 </script>
 	
+<style>
+	.navbar {
+		background-color: purple;
+		position: sticky;
+		top: 0;
+		z-index: 9999;
+	}
+
+	.title {
+		text-align: center;
+		margin-bottom: 700px;
+	}
+
+</style>
+
 	
 </head>
 
 <div class="form-group"> 
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<div class="row center" >
-			<h1>Work In Progress!</h1>		
+	<header class="navbar sticky navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+		<div class="navbar-nav-scroll">
+			<ul class="navbar-nav bd-navbar-nav flex-row">
+				<li class="nav-item">
+					<a class="nav-link active" href="/index.html" onclick="" id="aHome">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link " href="http://apc.csf.ph/moodle" onclick="">Moodle</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="container-fluid">
+		<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"  >
+			<h1 class="title">Work In Progress!</h1>
+			<h1 class="title">Work In Progress!</h1>
 		</div>
 	</div>
 	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
