@@ -21,20 +21,14 @@
 
 <script>
 	$(document).ready(function () {
-
-		if (document.location.href.indexOf("index") < 0 ) {
-			console.log("Found a file that isn't the home page.");
-			$( "#loaded-layout" ).load( "index.html #layout", function() {
-				console.log("Should have loaded the layout."); // Callback optional here...
-			});
-		}
-
 		$('#crslHeading').carousel({
 			interval: 2000
 		});
-
 		
-
+		// $('#aPage2').removeAttr('href');
+		// $('#aPage2').attr('href', '../static/views/home.html');
+		// alert($('#aPage2').attr('href'));
+		
 	});
 </script>
 
@@ -52,7 +46,7 @@
 					<a class="nav-link " href="http://apc.csf.ph/moodle" >Moodle</a>
 				</li>
 				<li class="nav-item">
-						<a class="nav-link " href="views/home.html" >Page</a>
+					<a class="nav-link " href="/views/home.html" id="aPage2">Page</a>
 				</li>
 			</ul>
 		</div>
