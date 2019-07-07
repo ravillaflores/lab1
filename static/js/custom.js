@@ -15,11 +15,12 @@ function toggleInfo(target) {
     var loc = id.substring(5,10);
     var tgtID = '#info-'+loc;
 
-    if($(tgtID).hasClass('hidden')){
-      $(tgtID).removeClass('hidden')
+    var chk = document.getElementById(id).hasAttribute("hidden");
+    if(chk){
+      $(tgtID).removeAttr('hidden');
     }
     else {
-      $(tgtID).addClass('hidden')
+      $(tgtID).attr('hidden','hidden');
     }
 
 }
