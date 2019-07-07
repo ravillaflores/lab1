@@ -26,8 +26,8 @@
 }
 
 .info {
-    /* background-color: #000308; */
-    background-color: transparent;
+    background-color: #000308;
+    /* background-color: transparent; */
     color: white;
     text-shadow:
     -1px -1px 0 black,
@@ -41,9 +41,9 @@
 }
 
 body {
-    /* background-color: black; */
-    background-image: url('/images/bg_body.png');
+    background-color: black;
+    /* background-image: url('/images/bg_body.png');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 

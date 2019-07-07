@@ -43,6 +43,11 @@
 		});
 
 		setFooterDate('#cYr')
+
+		$('.class').click(function() {
+			var id = $(this).attr('id');
+			toggleInfo(id);
+		});
 	});
 </script>
 
@@ -95,37 +100,75 @@
 					<p class="text-center"></p>
 				</div>
 				<div class="row">
-					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" id="card-norway">
 						<img class="card-img-top" src="../images/card_norway.jpg" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text">Norway</p>
 						</div>
 					</div>
-					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" id="card-canada">
 						<img class="card-img-top" src="../images/card_canada.jpg" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text">Canada</p>
 						</div>
 					</div>
-					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" id="card-iceland">
 						<img class="card-img-top" src="../images/card_iceland.jpg" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text">Iceland</p>
 						</div>
 					</div>
-					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+					<div class="card info text-center col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3" id="card-greenland">
 						<img class="card-img-top" src="../images/card_greenland.jpg" alt="Card image cap">
 						<div class="card-body">
 							<p class="card-text">Greenland</p>
 						</div>
 					</div>
 				</div>
-				
 			</fieldset>
 		</div>
 	</div>
-	<div>
-		<h1 class="title">WIP</h1>
+	<div class="row">
+		<div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 hidden"  id="info-norway">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					Norway
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					Norway Image
+				</div>
+			</div>
+		</div>
+		<div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 hidden"  id="info-canada">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						Canada
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					Canada Image
+				</div>
+			</div>
+		</div>
+		<div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 hidden"  id="info-iceland">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+						Iceland
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					Iceland Image
+				</div>
+			</div>
+		</div>
+		<div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 hidden"  id="info-greenland">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					GreenLand
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					GreenLand Image
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <container>
