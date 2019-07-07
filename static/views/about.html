@@ -10,6 +10,7 @@
 	<script src="../js/jquery-3.4.1.min.js"></script>
 	<script src="../js/bootstrap.js"></script>
 	<script src="../js/bootstrap.bundle.js"></script>
+	<script src="js/custom.js"></script>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="../css/bootstrap.css">
@@ -40,9 +41,7 @@
 
 		$('#aAbout').addClass("active");
 
-		
-
-		
+		setFooterDate('#tgtFooter')
 
 	});
 </script>
@@ -59,7 +58,11 @@
 		<h1 class="title">WIP</h1>
 	</div>
 </div>
-<container id="tgtFooter"></container>
+<container>
+	<footer id="lyFooter">
+		<p class="text-center">All Rights Reserved <container id="cYr"></container>.</p>
+	</footer>
+</container>
 
 
 </html>
