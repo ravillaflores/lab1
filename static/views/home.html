@@ -23,6 +23,7 @@
 	$(document).ready(function () {
 
 		if (document.location.href.indexOf("index") < 0 ) {
+			alert(document.location.href);
 			console.log("Found a file that isn't the home page.");
 			$( "#tgtLayout" ).load( "../index.html #layout", function() {
 				console.log("Should have loaded the layout."); // Callback optional here...
