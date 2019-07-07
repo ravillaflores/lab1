@@ -24,7 +24,7 @@
 
 		if (document.location.href.indexOf("index") < 0 ) {
 			console.log("Home Call");
-			$( "#tgtLayout" ).load( "../index.html #layout", function() {
+			$( "#tgtHeader" ).load( "../index.html #layout", function() {
 				console.log("Home Call 2."); // Callback optional here...
 			});
 		}
@@ -41,14 +41,26 @@
 	
 </head>
 
+
+<div id="tgtHeader">
+	
+</div>
 <div class="form-group">
-	<div id="tgtLayout">
-
-	</div>
-
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-			Home 
+			<div id="crslHeading" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active" id="img1" >
+							<img class="img-crsl" src="../images/img_1.jpg" alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class=" img-crsl" src="../images/lorempixel.abstract.8.jpeg" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img class=" img-crsl" src="../images/lorempixel.city.1.jpeg" alt="Third slide">
+					</div>
+				</div>
+			</div>		  
 		</div>
 	</div>
 	
