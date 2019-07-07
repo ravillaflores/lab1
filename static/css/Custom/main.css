@@ -42,7 +42,7 @@
 
 body {
     /* background-color: black; */
-    background-image: url('../images/bg_body.png');
+    background-image: url('/images/bg_body.png');
     background-position: center;
     background-repeat: no-repeat;
 }
