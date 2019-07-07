@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html>
+<head>
+	<title> About - RAVillaflores </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- javascript -->
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/bootstrap.bundle.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/bootstrap-grid.css">
+	<link rel="stylesheet" href="../css/bootstrap-reboot.css">
+	<link rel="stylesheet" href="../css/bootstrap-theme.css">
+	<link rel="stylesheet" href="../css/Custom/main.css">
+
+
+<script>
+	$(document).ready(function () {
+
+		// if (document.location.href.indexOf("index") < 0 ) {
+		// 	console.log("Home Call");
+		// 	$( "#tgtHeader" ).load( "../index.html #layout", function() {
+		// 		console.log("Home Call 2."); // Callback optional here...
+		// 	});
+		// }
+
+		if (document.location.href.indexOf("layout") < 0 ) {
+			$( "#tgtHeader" ).load( "../layout/layout.html #layout", function() {
+
+			});
+		}
+		
+		$a('#aAbout').addClass("active");
+	});
+</script>
+
+	
+</head>
+
+
+<container id="tgtHeader">
+	
+</container>
+<div class="form-group">
+	<div>
+		<h1 class="title">WIP</h1>
+		<h1 class="title">WIP</h1>
+		<h1 class="title">WIP</h1>
+	</div>
+</div>
+</html>

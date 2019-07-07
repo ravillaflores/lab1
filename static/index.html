@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title> USERDES - MI182 - RAVillaflores </title>
+	<title> Home - RAVillaflores </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,72 +21,40 @@
 
 <script>
 	$(document).ready(function () {
+		if (document.location.href.indexOf("layout") < 0 ) {
+			$( "#tgtHeader" ).load( "../layout/layout.html #layout", function() {
+
+			});
+		}
+
+		$a('#aHome').addClass("active");
+
 		$('#crslHeading').carousel({
 			interval: 2000
 		});
-		
-		// $('#aPage2').removeAttr('href');
-		// $('#aPage2').attr('href', '../static/views/home.html');
-		// alert($('#aPage2').attr('href'));
-		
 	});
 </script>
 
 	
 </head>
 
-<container>
-	<header class="navbar sticky navbar-expand navbar-dark flex-column flex-md-row bd-navbar" id="layout">
-		<div class="navbar-nav-scroll">
-			<ul class="navbar-nav bd-navbar-nav flex-row">
-				<li class="nav-item">
-					<a class="nav-link active" href="/index.html" id="aHome">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="http://apc.csf.ph/moodle" >Moodle</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="/views/home.html" id="aPage2">Page</a>
-				</li>
-			</ul>
-		</div>
-	</header>
+<container id="tgtHeader">
+	
 </container>
 
 <div class="form-group"> 
-	<!-- <header class="navbar sticky navbar-expand navbar-dark flex-column flex-md-row bd-navbar" id="layout">
-		<div class="navbar-nav-scroll">
-			<ul class="navbar-nav bd-navbar-nav flex-row">
-				<li class="nav-item">
-					<a class="nav-link active" href="/index.html" id="aHome">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="http://apc.csf.ph/moodle" >Moodle</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="/views/home.html" id="aPage2">Page</a>
-				</li>
-			</ul>
-		</div>
-	</header> -->
-	<!-- <div class="container-fluid">
-		<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"  >
-			<h1 class="title">Work In Progress!</h1>
-			<h1 class="title">Work In Progress!</h1>
-		</div>
-	</div> -->
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 			<div id="crslHeading" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active" id="img1" >
-							<img class="img-crsl" src="images/img_1.jpg" alt="First slide">
+							<img class="img-crsl" src="../images/img_1.jpg" alt="First slide">
 					</div>
 					<div class="carousel-item">
-						<img class=" img-crsl" src="images/lorempixel.abstract.8.jpeg" alt="Second slide">
+						<img class=" img-crsl" src="../images/lorempixel.abstract.8.jpeg" alt="Second slide">
 					</div>
 					<div class="carousel-item">
-						<img class=" img-crsl" src="images/lorempixel.city.1.jpeg" alt="Third slide">
+						<img class=" img-crsl" src="../images/lorempixel.city.1.jpeg" alt="Third slide">
 					</div>
 				</div>
 			</div>		  
