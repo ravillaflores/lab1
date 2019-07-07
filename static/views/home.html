@@ -23,8 +23,13 @@
 	$(document).ready(function () {
 
 		if (document.location.href.indexOf("index") < 0 ) {
+			alert(location.href);
+			var url = "../";
 			console.log("Found a file that isn't the home page.");
-			$( "#tgtLayout" ).load( "index.html #layout", function() {
+
+			var url = 
+
+			$( "#tgtLayout" ).load( "../index.html #layout", function() {
 				console.log("Should have loaded the layout."); // Callback optional here...
 			});
 		}
