@@ -1,0 +1,22 @@
+.navbar {
+    background-color: purple;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 700px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 300px; /* example */
+}	
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
