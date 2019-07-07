@@ -25,6 +25,14 @@
     max-width: 100%
 }
 
+.info {
+    background-color: #000e24;
+}
+
+body {
+    background-color: black;
+}
+
 html {
     background-color: black;
 }

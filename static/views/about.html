@@ -30,7 +30,10 @@
 		// }
 
 		if (document.location.href.indexOf("layout") < 0 ) {
-			$( "#tgtHeader" ).load( "../layout/layout.html #layout", function() {
+			$( "#tgtHeader" ).load( "../layout/layout.html #lyNavbar", function() {
+
+			});
+			$( "#tgtFooter" ).load( "../layout/layout.html #lyFooter", function() {
 
 			});
 		}
@@ -48,9 +51,7 @@
 </head>
 
 
-<container id="tgtHeader">
-	
-</container>
+<container id="tgtHeader"></container>
 <div class="form-group">
 	<div>
 		<h1 class="title">WIP</h1>
@@ -58,4 +59,7 @@
 		<h1 class="title">WIP</h1>
 	</div>
 </div>
+<container id="tgtFooter"></container>
+
+
 </html>

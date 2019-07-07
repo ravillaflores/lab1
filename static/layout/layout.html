@@ -20,6 +20,12 @@
 
 
 <script>
+	$(document).ready(function() {
+		var today = new Date();
+		var yr = today.getFullYear();
+		$('#cYr').html(yr);
+	});
+
 
 </script>
 
@@ -27,7 +33,7 @@
 </head>
 
 <container>
-	<header class="navbar sticky navbar-expand navbar-dark flex-column flex-md-row bd-navbar" id="layout">
+	<header class="navbar sticky navbar-expand navbar-dark flex-column flex-md-row bd-navbar" id="lyNavbar">
 		<div class="navbar-nav-scroll">
 			<ul class="navbar-nav bd-navbar-nav flex-row">
 				<li class="nav-item">
@@ -40,5 +46,9 @@
 		</div>
 	</header>
 </container>
-</div>
+<container>
+	<footer id="lyFooter">
+		<p class="text-center">All Rights Reserved <container id="cYr"></container>.</p>
+	</footer>
+</container>
 </html>

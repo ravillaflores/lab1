@@ -22,7 +22,10 @@
 <script>
 	$(document).ready(function () {
 		if (document.location.href.indexOf("layout") < 0 ) {
-			$( "#tgtHeader" ).load( "../layout/layout.html #layout", function() {
+			$( "#tgtHeader" ).load( "../layout/layout.html #lyNavbar", function() {
+
+			});
+			$( "#tgtFooter" ).load( "../layout/layout.html #lyFooter", function() {
 
 			});
 		}
@@ -78,35 +81,15 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row mt-2 info">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-			<h1 class="text-left">Aurora Borealis</h1>
+			<h1 class="text-left mb-2">Aurora Borealis</h1>
+			<p></p>
 		</div>
 	</div>
 	<div>
 		<h1 class="title">WIP</h1>
-		<h1 class="title">WIP</h1>
-		<h1 class="title">WIP</h1>
 	</div>
-	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-1 col-xl-3">
-				Sample Text
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xl-3">
-				<input class="form-control" type="text" placeholder="Sample Textbox" id="tbxLogin"/>
-			</div>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-1 col-xl-3">
-				Test Line: 
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xl-3" id="divTest">
-				
-			</div>
-		</div>
-	</div> -->
 </div>
+<container id="tgtFooter"></container>
 </html>
