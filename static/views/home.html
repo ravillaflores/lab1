@@ -24,7 +24,7 @@
 
 		if (document.location.href.indexOf("index") < 0 ) {
 			console.log("Home Call");
-			$( "#tgtHeader" ).html( "../index.html #layout", function() {
+			$( "#tgtHeader" ).load( "../index.html #layout", function() {
 				console.log("Home Call 2."); // Callback optional here...
 			});
 		}
@@ -42,9 +42,9 @@
 </head>
 
 
-<header id="tgtHeader">
+<container id="tgtHeader">
 	
-</header>
+</container>
 <div class="form-group">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
