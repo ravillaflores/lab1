@@ -24,7 +24,7 @@
 
 		if (document.location.href.indexOf("index") < 0 ) {
 			console.log("Home Call");
-			$( "#tgtHeader" ).load( "../index.html #layout", function() {
+			$( "#tgtHeader" ).html( "../index.html #layout", function() {
 				console.log("Home Call 2."); // Callback optional here...
 			});
 		}
@@ -42,9 +42,9 @@
 </head>
 
 
-<div id="tgtHeader">
+<header id="tgtHeader">
 	
-</div>
+</header>
 <div class="form-group">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -63,26 +63,10 @@
 			</div>		  
 		</div>
 	</div>
-	
-	<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-1 col-xl-3">
-				Sample Text
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xl-3">
-				<input class="form-control" type="text" placeholder="Sample Textbox" id="tbxLogin"/>
-			</div>
-		</div>
+	<div>
+		<h1 class="title">WIP</h1>
+		<h1 class="title">WIP</h1>
+		<h1 class="title">WIP</h1>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<div class="row">
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-1 col-xl-3">
-				Test Line: 
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xl-3" id="divTest">
-				
-			</div>
-		</div>
-	</div> -->
 </div>
 </html>
