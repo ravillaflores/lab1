@@ -36,9 +36,13 @@
     1px 1px 0 black;  
 }
 
-.card:hover {
-    background-color: #050112;
+.card-row {
+    background-color: #fcfbe6;
 }
+
+/* .card:hover {
+    background-color: #050112;
+} */
 
 body {
     background-color: black;
