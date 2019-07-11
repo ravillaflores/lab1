@@ -40,9 +40,9 @@
     padding: 25px 20px 30px 20px;
 }
 
-/* .card:hover {
-    background-color: #050112;
-} */
+.card:hover {
+    background-color: #5294ff;
+}
 
 body {
     background-color: black;
