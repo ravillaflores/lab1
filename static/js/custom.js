@@ -14,7 +14,7 @@ function toggleInfo(target) {
     var loc = target.substring(5,10);
     var tgtID = '#info-'+loc;
     alert(tgtID);
-    var chk = document.getElementById(id).hasAttribute("hidden");
+    var chk = document.getElementById(target).hasAttribute("hidden");
     if(chk){
       $(tgtID).removeAttr('hidden');
     }
