@@ -11,7 +11,7 @@ function setFooterDate(target) {
 
 
 function toggleInfo(target) {
-    var loc = target.substring(5,10);
+    var loc = $.trim(target.substring(5,20));
     var tgtID = '#info-'+loc;
     alert(tgtID);
     var chk = document.getElementById(target).hasAttribute("hidden");
