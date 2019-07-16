@@ -44,6 +44,9 @@
     background-color: #5294ff;
 }
 
+.carousel {
+    width: 100%;
+}
 
 body {
     background-color: black;
