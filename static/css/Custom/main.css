@@ -57,6 +57,10 @@
     width: 250px;
 }
 
+table td {
+    border: none;
+}
+
 body {
     background-color: black;
     /* background-image: url('/images/bg_body.png');
