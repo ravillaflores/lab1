@@ -21,5 +21,4 @@ function toggleInfo(target) {
     else {
       $(tgtID).attr('hidden','hidden');
     }
-
 }
