@@ -45,22 +45,10 @@
 
 			$('.card').hover(function () {
 				var id = $(this).attr('id');
-				//alert(id);
 				toggleInfo(id);
 			});
 		});
-
-		$('#tgtBody').on('hover', '.dropdown-item', function(e) {
-			var id = $(this).attr('name');
-			alert(id);
-		});
-
-		// $('.dropdown-item').hover(function () {
-			
-		// });
 	</script>
-
-
 </head>
 
 <container id="tgtHeader">
@@ -68,7 +56,22 @@
 </container>
 
 <container id="tgtBody">
-	<!-- Body -->
+	<div class="row">
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+			  <a class="nav-link active" href="#">Active</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			</li>
+		  </ul>
+	</div>
 </container>
 
 <div class="footer">
