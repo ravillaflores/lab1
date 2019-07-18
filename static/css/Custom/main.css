@@ -48,6 +48,15 @@
     width: 100%;
 }
 
+.row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-profile {
+    border-radius: 50%;
+}
+
 body {
     background-color: black;
     /* background-image: url('/images/bg_body.png');
