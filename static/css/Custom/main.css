@@ -35,7 +35,6 @@
 }
 
 .card-row {
-    background-color: #fcfbe6;
     padding: 25px 20px 30px 20px;
 }
 
@@ -85,11 +84,11 @@ td {
     display: block;
   }
 
-.zoom:hover {
+/* .zoom:hover {
     -ms-transform: scale(3.0); /* IE 9 */
     -webkit-transform: scale(3.0); /* Safari 3-8 */
     transform: scale(3.0); 
-}
+} */
 
 .li a {
     color: black;
@@ -102,4 +101,21 @@ body {
     background-repeat: no-repeat; 
     background-size:cover;
 }
+
+
+  a.mouseover-thumbnail-holder .large-image-style {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 2s ease;
+  }
+  a.mouseover-thumbnail-holder:hover .large-image-style,
+  a.mouseover-thumbnail-holder:active .large-image-style {
+    opacity: 1;
+  }
 
