@@ -57,8 +57,19 @@
     width: 250px;
 }
 
-table td {
+td {
     border: none;
+}
+
+.markup {
+    background-color: #b5b5b5;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.markup-text {
+    background-color: #b5b5b5;
+    padding: 10px 0px 10px 0px;
 }
 
 body {
