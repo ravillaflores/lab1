@@ -77,13 +77,19 @@ td {
 }
 
 .zoom {
-    padding: 50px;
     transition: transform .2s;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
-  
+
+.zoom:hover {
+    -ms-transform: scale(3.0); /* IE 9 */
+    -webkit-transform: scale(3.0); /* Safari 3-8 */
+    transform: scale(3.0); 
+}
 
 body {
     background-image: url(/images/shared/background.jpg);
