@@ -43,10 +43,10 @@
 
 			setFooterDate('#cYr')
 
-			$('.card').hover(function () {
-				var id = $(this).attr('id');
-				toggleInfo(id);
-			});
+			// $('.card').hover(function () {
+			// 	var id = $(this).attr('id');
+			// 	toggleInfo(id);
+			// });
 		});
 	</script>
 </head>
@@ -146,8 +146,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="info">
-									<h2>Developer | Gamer | Traveller | Foodie</h2>
+								<td class="info text-center">
+									<h3><i>"I need not to be Right, I just don't have to be wrong"</i></h3>
 								</td>
 							</tr>
 						</tbody>
@@ -170,23 +170,47 @@
 					<div class="tab-content" id="infoTabContent">
 						<div class="tab-pane fade show active" id="tabProfile" role="tabpanel" aria-labelledby="home-tab">
 							<div class="row">
-								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-									Hello
+								<div class="card text-center col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-4" id="pepsi_fam">
+									<img class="card-img-top" src="../images/personal/pepsi_fam.jpg" alt="Pepsi">
+									<div class="card-body">
+										<p class="card-text text-center">PCPPI</p>
+										<p class="card-text text-left" id="info-Dota">
+											First real job in the line of IT. Worked as a Full Stack Web and Application Developer.
+											Programming Languages: VB6, ASP.NET, C#, MS-SQL, JQuery, Javascript, AngularJS
+											Years Worked: Dec 2016 - Jun 2019 (2 Years and 7 Months)
+										</p>
+									</div>
 								</div>
-								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-									Hi
+								<div class="card text-center col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" id="dota-archon">
+									<img class="card-img-top" src="../images/personal/smuggler_1.png" alt="Smuggler">
+									<div class="card-body">
+										<p class="card-text text-center">Dota Underlords</p>
+										<p class="card-text text-left" id="info-Dota">
+											Rank: Smuggler 1
+										</p>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="tab-pane fade" id="tabHobbies" role="tabpanel" aria-labelledby="profile-tab">
 							<div class="row">
 								<div class="card text-center col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" id="dota-archon">
-									<img class="card-img-top zoom" src="../images/personal/archon_6.png" alt="Archon">
+									<img class="card-img-top" src="../images/personal/archon_6.png" alt="Archon">
 									<div class="card-body">
-										<p class="card-text text-center">Dota</p>
+										<p class="card-text text-center">Dota 2</p>
 										<p class="card-text text-left" id="info-Dota">
 											Rank: Archon 6
 											Total Playtime: 3875 hours
+										</p>
+									</div>
+								</div>
+								<div class="card text-center col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" id="underlord">
+									<img class="card-img-top" src="../images/personal/smuggler_1.png" alt="Smuggler">
+									<div class="card-body">
+										<p class="card-text text-center">Dota Underlords</p>
+										<p class="card-text text-left" id="info-Dota">
+											Rank: Smuggler 1
+											Hours Played: 37 hours
 										</p>
 									</div>
 								</div>
