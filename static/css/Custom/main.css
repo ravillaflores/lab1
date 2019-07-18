@@ -25,8 +25,7 @@
 }
 
 .info {
-    background-color: #000308;
-    /* background-color: transparent; */
+    background-color: transparent;
     color: white;
     text-shadow:
     -1px -1px 0 black,
