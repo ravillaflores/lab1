@@ -50,10 +50,14 @@
 			});
 		});
 
-		$('.dropdown-item').hover(function () {
+		$('#tgtBody').on('hover', '.dropdown-item', function(e) {
 			var id = $(this).attr('name');
 			alert(id);
 		});
+
+		// $('.dropdown-item').hover(function () {
+			
+		// });
 	</script>
 
 
