@@ -61,21 +61,21 @@ td {
     border: none;
 }
 
-.markup {
+.banner {
     background-color: #b5b5b5;
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
 
-.markup-text {
+.banner-text {
     background-color: #b5b5b5;
     padding: 10px 0px 10px 0px;
 }
 
 body {
+    background-image: url(/images/shared/background.jpg);
     background-color: black;
-    /* background-image: url('/images/bg_body.png');
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
 }
 
