@@ -103,14 +103,14 @@ body {
 }
 
 
-img .profile {
+.profile {
     margin: auto;
     height: 200px;
     width: 300px;
     margin-top: 20px;
 }
 
-img .food {
+.food {
     margin: auto;
     height: 300px;
     width: 300px;
