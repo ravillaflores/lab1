@@ -60,16 +60,18 @@ td {
     border: none;
 }
 
-.banner {
-    background-color: #b5b5b5;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
+.banner-row {
+    background-image: url(/images/shared/banner_1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size:cover;
 }
 
-.banner-text {
-    background-color: #b5b5b5;
-    padding: 10px 0px 10px 0px;
+.banner {
+    padding: 10px;
 }
+
 
 body {
     background-image: url(/images/shared/background.jpg);
