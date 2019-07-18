@@ -84,11 +84,11 @@ td {
     display: block;
   }
 
-/* .zoom:hover {
+.xxxxxsssss {
     -ms-transform: scale(3.0); /* IE 9 */
     -webkit-transform: scale(3.0); /* Safari 3-8 */
     transform: scale(3.0); 
-} */
+}
 
 .li a {
     color: black;
@@ -103,7 +103,7 @@ body {
 }
 
 
-  a.mouseover-thumbnail-holder .large-image-style {
+  img.mouseover-thumbnail-holder .large-image-style {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -114,8 +114,8 @@ body {
     pointer-events: none;
     transition: all 2s ease;
   }
-  a.mouseover-thumbnail-holder:hover .large-image-style,
-  a.mouseover-thumbnail-holder:active .large-image-style {
+  img.mouseover-thumbnail-holder:hover .large-image-style,
+  img.mouseover-thumbnail-holder:active .large-image-style {
     opacity: 1;
   }
 
