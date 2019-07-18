@@ -34,7 +34,9 @@
     1px 1px 0 black;  
 }
 
-
+.card-row {
+    padding: 25px 20px 30px 20px;
+}
 
 .card:hover {
     background-color: #5294ff;
@@ -46,10 +48,6 @@
 
 .row {
     padding: 0px 20px 30px 20px;
-}
-
-.card-row {
-    padding: 25px 20px 30px 20px;
 }
 
 .row-carousel {
@@ -90,14 +88,6 @@ td {
     -ms-transform: scale(3.0); /* IE 9 */
     -webkit-transform: scale(3.0); /* Safari 3-8 */
     transform: scale(3.0); 
-    position:fixed;
-    visibility: visible;
-    top: 0;
-    left: 0;
-    right:0;
-    bottom:0;
-    margin: auto;
-    z-index: 200;
 }
 
 .li a {
@@ -111,7 +101,6 @@ body {
     background-repeat: no-repeat; 
     background-size:cover;
 }
-
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
